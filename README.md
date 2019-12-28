@@ -7,9 +7,9 @@ SSID Esp32Peacock
 
 # How to flash
 - Erase Flash
-python esptools.py -p com 5 erash_flash
+python esptool.py -p com5 erase_flash
 - Write bin
-python esptools.py -p com5 -b 115200 write_flash -z  0x0000 Esp32MicroWebSrv.bin
+python esptool.py -p com5 -b 115200 write_flash -z  0x0000 Esp32MicroWebSrv.bin
 
 
 https://microwebsrv.hc2.fr/
