@@ -15,7 +15,7 @@ http://micropython.org/resources/firmware/esp32-idf3-20180511-v1.9.4.bin
 - Erase Flash
 python esptool.py -p com5 erase_flash
 - Write bin
-python esptool.py -p com5 -b 115200 write_flash -z  0x0000 Esp32MicroWebSrv.bin
+python esptool.py -p com5 -b 115200 write_flash -z  0x0000 flash_Esp32MicroWebSrv.bin
 
 
 https://microwebsrv.hc2.fr/
