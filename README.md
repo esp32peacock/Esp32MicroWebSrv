@@ -9,9 +9,9 @@ SSID Esp32Peacock
 
 add /get?test1=value1&test2=value2 to test GET method
 
-use microPython V 1.9.4 to Solve ampdu ignore deleting tx error
+use microPython V 1.11 to Solve ampdu ignore deleting tx error
 
-http://micropython.org/resources/firmware/esp32-idf3-20180511-v1.9.4.bin
+http://micropython.org/resources/firmware/esp32spiram-idf3-20190529-v1.11.bin
 
 # How to flash
 - Erase Flash
