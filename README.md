@@ -25,6 +25,10 @@ python esptool.py -p com5 erase_flash
 python esptool.py -p com5 -b 115200 write_flash -z  0x0000 flash_Esp32MicroWebSrv.bin
 
 
+# How to save bin from ESP
+python esptool.py -p com5 -b 115200 read_flash 0 0x400000 Your.bin
+
+
 https://microwebsrv.hc2.fr/
 
 https://github.com/jczic/MicroWebSrv
