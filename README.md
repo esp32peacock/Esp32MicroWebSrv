@@ -21,7 +21,7 @@ python esptool.py -p com5 -b 115200 write_flash -z  0x0000 flash_Esp32MicroWebSr
 
 # How to debug ESP32 MicroPython
 
-use UPyCraft
+use uPyCraft
 
 # Original
 
