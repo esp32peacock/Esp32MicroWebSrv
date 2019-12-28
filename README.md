@@ -2,11 +2,6 @@
 
 .bin for ESP32 to test MicroWebSrv in AP mode 
 
-# If want to use in STA mode
-please change this line to
-
-srv = MicroWebSrv(port=80, bindIP='0.0.0.0', webPath='www/')
-
 # Common use
 
 SSID Esp32Peacock
@@ -24,12 +19,15 @@ python esptool.py -p com5 erase_flash
 - Write bin
 python esptool.py -p com5 -b 115200 write_flash -z  0x0000 flash_Esp32MicroWebSrv.bin
 
+# Original
+
+https://microwebsrv.hc2.fr/
+
+https://github.com/jczic/MicroWebSrv
+
 
 # How to save bin from ESP
 python esptool.py -p com5 -b 115200 read_flash 0 0x400000 Your.bin
 
 
-https://microwebsrv.hc2.fr/
-
-https://github.com/jczic/MicroWebSrv
 
