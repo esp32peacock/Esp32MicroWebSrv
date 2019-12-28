@@ -5,6 +5,8 @@
 SSID Esp32Peacock
 192.168.4.1
 
+add /get?test1=value1&test2=value2 to test GET method
+
 # How to flash
 - Erase Flash
 python esptool.py -p com5 erase_flash
