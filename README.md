@@ -9,7 +9,7 @@ SSID Esp32Peacock
 
 add /get?test1=value1&test2=value2 to test GET method
 
-use microPython V 1.11 to Solve ampdu ignore deleting tx error
+use Old Version <MicroPython V 1.11 to Solve ampdu ignore deleting tx error
 
 http://micropython.org/resources/firmware/esp32spiram-idf3-20190529-v1.11.bin
 
