@@ -2,6 +2,13 @@
 
 .bin for ESP32 to test MicroWebSrv in AP mode 
 
+# If want to use in STA mode
+please change this line to
+
+srv = MicroWebSrv(port=80, bindIP='0.0.0.0', webPath='www/')
+
+# Common use
+
 SSID Esp32Peacock
 192.168.4.1
 
